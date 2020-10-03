@@ -1,0 +1,186 @@
+/*div{
+
+	background-color: red;
+	color: white;
+
+	border: 2px;
+	padding: 13px 13px 13px 13px;
+	margin: 10px 20px;
+}*/
+
+#quote{
+	font-family: "arial";
+	font-size: 12 pt;
+	background-color: blue;
+	color: red;
+}
+
+#skills ol li{
+
+	color: #8033F3;
+}
+
+h2 + p {
+
+	background: grey;
+	color: black;
+}
+
+#lorem{
+
+	background-color: black;
+	color: white;
+
+	border: 3px dotted red;
+	padding: 13px 13px 13px 13px;
+	margin: 10px 20px;
+
+}
+
+#container{
+
+	background-color: #F39A1C;
+	border: 3px solid black;
+	border border-radius: 5px;
+}
+
+#centered{
+
+	background: #6CF965;
+	width: 50%;
+	text-align: center;
+}
+
+img{
+
+	border: 3px solid black;
+	padding: 13px 13px 13px 13px;
+	margin: 10px 20px;
+	float: left;
+}
+
+a:hover{
+
+	background-color: black;
+	color: white;
+}
+
+h2{
+
+	color: red;
+}
+
+p{
+	color: blue;
+}
+
+#box{
+
+	
+	border: 2px solid red;
+	width: 50px,
+	height: 50px;
+}
+
+#div1{
+
+	background-color: red;
+	border: 3px solid black;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+}
+
+#div2{
+
+	background-color: blue;
+	border: 3px solid black;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+}
+
+#div3{
+
+	background-color: #2ABCBA;
+	border: 3px solid black;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+}
+
+#div4{
+
+	background-color: #C1F424;
+	border: 3px solid black;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+
+}
+
+#div5{
+
+	background-color: red;
+	border: 3px solid black;
+	width: 200px;
+	height: 200px;
+	clear: both;
+	margin-right: 10px;
+	
+	animation-name: anime;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	position: relative;
+}
+
+@keyframes anime{
+
+	0% {background-color: red; left: 0px; top: 0px;}
+	25% {background-color: yellow; left: 300px; top: 0px;}
+	50% {background-color: blue; left: 300px; top: 300px;}
+	75% {background-color: green; left: 0px; top: 300px;}
+	100% {background-color: red; left: 0px; top: 0px;}
+}
+
+#div5:hover{
+
+	transform: translate(20px, 20px);
+	
+}
+
+body{
+/*
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+*/
+}
+
+#div6{
+
+	background-color: red;
+	margin-bottom: 15px;
+	width: 200px;
+	height: 200px;
+}
+
+@media (min-width: 1200px) {
+
+	#div6{
+
+		width: 80%;
+	}
+}
+
+#div7{
+
+	background-color: #2ABCBA;
+	border: 3px solid black;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 10px;
+}
