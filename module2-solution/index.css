@@ -12,7 +12,7 @@
 #chicken{
 
 	background-color: #FD8683;
-	border: 1px solid black;
+	border: 2px solid black;
 	margin-bottom: 10px;
 	width:75px;
 	height: 20px;
@@ -26,7 +26,7 @@
 	background-color: #B6B6B6;
 	border: 3px solid black;
 	width: 400px;
-	height: 210px;
+	height: 150px;
 	float: left;
 	margin-right: 10px;
 	padding: 13px 13px 13px 13px;
@@ -36,10 +36,10 @@
 #Beef{
 
 	background-color: #D0071E;
-	border: 3px solid black;
+	border: 2px solid black;
 	margin-bottom: 10px;
 	width:75px;
-	height: 30px;
+	height: 20px;
 	position: relative;
 	left: 300px;
 
@@ -61,10 +61,10 @@
 #Sushi{
 
 	background-color: #EFF97D;
-	border: 3px solid black;
+	border: 2px solid black;
 	margin-bottom: 10px;
 	width:75px;
-	height: 30px;
+	height: 20px;
 	position: relative;
 	left: 300px;
 
